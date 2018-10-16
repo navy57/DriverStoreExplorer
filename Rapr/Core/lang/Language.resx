@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button_About" xml:space="preserve">
-    <value>About</value>
+    <value>A propos</value>
   </data>
   <data name="Button_Add_Package" xml:space="preserve">
-    <value>Add Package</value>
+    <value>Ajouter un package</value>
   </data>
   <data name="Button_Delete_Package" xml:space="preserve">
-    <value>Delete Package</value>
+    <value>Supprimer le package</value>
   </data>
   <data name="Button_OK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
   <data name="Button_Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Reafraichir</value>
   </data>
   <data name="Button_RunAs_Admin" xml:space="preserve">
-    <value>Run As Admin</value>
+    <value>Exécuter en tant qu'administrateur</value>
   </data>
   <data name="Button_Select_Old" xml:space="preserve">
-    <value>Select Old Drivers</value>
+    <value>Sélectionnez les anciens pilotes</value>
   </data>
   <data name="Button_View_Logs" xml:space="preserve">
-    <value>View Logs</value>
+    <value>Afficher les journaux</value>
   </data>
   <data name="Check_Force_Delete" xml:space="preserve">
-    <value>Force Deletion</value>
+    <value>Forcer la suppression</value>
   </data>
   <data name="Check_Install_Driver" xml:space="preserve">
-    <value>Install Driver</value>
+    <value>Installer le pilote</value>
   </data>
   <data name="Check_RunAs_Admin" xml:space="preserve">
-    <value>Run As Admin</value>
+    <value>Exécuter en tant qu'administrateur</value>
   </data>
   <data name="Column_Date" xml:space="preserve">
-    <value>Driver Date</value>
+    <value>Date du pilote</value>
   </data>
   <data name="Column_Driver_Class" xml:space="preserve">
-    <value>Driver Class</value>
+    <value>Classe du pilote</value>
   </data>
   <data name="Column_Inf" xml:space="preserve">
     <value>INF</value>
@@ -163,76 +163,76 @@
     <value>OEM INF</value>
   </data>
   <data name="Column_Provider" xml:space="preserve">
-    <value>Provider</value>
+    <value>Fournisseur</value>
   </data>
   <data name="Column_Signed_By" xml:space="preserve">
-    <value>Signed By</value>
+    <value>Signé par</value>
   </data>
   <data name="Column_Size" xml:space="preserve">
-    <value>Size</value>
+    <value>Taille</value>
   </data>
   <data name="Column_Version" xml:space="preserve">
-    <value>Driver Version</value>
+    <value>Version</value>
   </data>
   <data name="Context_Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Supprimer</value>
   </data>
   <data name="Context_Deselect" xml:space="preserve">
-    <value>Deselect</value>
+    <value>Desélectionner</value>
   </data>
   <data name="Context_Deselect_All" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Tout desélectionner</value>
   </data>
   <data name="Context_Export" xml:space="preserve">
-    <value>Export</value>
+    <value>Exporter</value>
   </data>
   <data name="Context_Select" xml:space="preserve">
-    <value>Select</value>
+    <value>Sélectionner</value>
   </data>
   <data name="Context_Select_All" xml:space="preserve">
-    <value>Select All</value>
+    <value>Tout sélectionner</value>
   </data>
   <data name="Context_Select_Old" xml:space="preserve">
-    <value>Select Old Drivers</value>
+    <value>Sélectionnez les anciens pilotes</value>
   </data>
   <data name="Group_DriverStore" xml:space="preserve">
-    <value>Driver Store</value>
+    <value>Magasin de pilotes</value>
   </data>
   <data name="Label_RunAsAdmin" xml:space="preserve">
-    <value>Started without admin priveleges. Some features are disabled.</value>
+    <value>Démarré sans privilèges administrateur. Certaines fonctionnalités sont désactivées.</value>
   </data>
   <data name="Message_Delete" xml:space="preserve">
-    <value>delete</value>
+    <value>Supprimer</value>
   </data>
   <data name="Message_Delete_Multiple_Packages" xml:space="preserve">
-    <value>About to {0} {1} packages from driver store.</value>
+    <value>A propos de {0} {1} packages à partir du magasin de pilotes.</value>
   </data>
   <data name="Message_Delete_Result" xml:space="preserve">
-    <value>Deletion of {0} ({1}) {2}.</value>
+    <value>Suppression de {0} ({1}) {2}.</value>
   </data>
   <data name="Message_Delete_Single_Package" xml:space="preserve">
-    <value>About to {0} {1} ({2}) from driver store.</value>
+    <value>À propos de {0} {1} ({2}) à partir du magasin de pilotes.</value>
   </data>
   <data name="Message_Failed" xml:space="preserve">
-    <value>failed</value>
+    <value>échoué</value>
   </data>
   <data name="Message_Force_Delete" xml:space="preserve">
-    <value>force delete</value>
+    <value>forcer la suppression</value>
   </data>
   <data name="Message_Requires_Later_OS" xml:space="preserve">
-    <value>This utility cannot be run in pre-Vista OS</value>
+    <value>Cet utilitaire ne peut pas être exécuté sur les systèmes d'exploitation antérieurs à Vista</value>
   </data>
   <data name="Message_Select_Driver_Entry" xml:space="preserve">
-    <value>Select a driver entry first</value>
+    <value>Sélectionnez d'abord une entrée de pilote</value>
   </data>
   <data name="Message_Success" xml:space="preserve">
-    <value>succeeded</value>
+    <value>réussi</value>
   </data>
   <data name="Message_Sure" xml:space="preserve">
-    <value>Are you sure?</value>
+    <value>Êtes-vous sûr?</value>
   </data>
   <data name="Message_Title_Warning" xml:space="preserve">
-    <value>Warning</value>
+    <value>Avertissement</value>
   </data>
   <data name="Options_Text" xml:space="preserve">
     <value> Operations </value>
@@ -244,77 +244,77 @@
     <value>Driver Store Explorer [RAPR]</value>
   </data>
   <data name="Product_Name_Additional_ReadOnly" xml:space="preserve">
-    <value>[Read-Only Mode]</value>
+    <value>[Mode lecture seule]</value>
   </data>
   <data name="StatusStrip_default" xml:space="preserve">
     <value>statusStrip1</value>
   </data>
   <data name="Status_Label" xml:space="preserve">
-    <value>Ready</value>
+    <value>Prêt</value>
   </data>
   <data name="Status_Running_ReadOnly" xml:space="preserve">
-    <value>Running in Read-Only mode</value>
+    <value>Exécution en mode lecture seule</value>
   </data>
   <data name="Tip_Driver_In_Use" xml:space="preserve">
-    <value>[TIP: The driver may still being used. Try FORCE deleting the package]</value>
+    <value>[CONSEIL: le pilote est peut-être encore utilisé. Essayez la suppression forcé du package]</value>
   </data>
   <data name="Title_About" xml:space="preserve">
-    <value>About</value>
+    <value>A propos</value>
   </data>
   <data name="Menu_Help" xml:space="preserve">
-    <value>Help</value>
+    <value>Aide</value>
   </data>
   <data name="Menu_Help_About" xml:space="preserve">
-    <value>About</value>
+    <value>A propos</value>
   </data>
   <data name="Menu_File" xml:space="preserve">
-    <value>File</value>
+    <value>Fichier</value>
   </data>
   <data name="Menu_File_Export" xml:space="preserve">
-    <value>Export</value>
+    <value>Exporter</value>
   </data>
   <data name="Menu_File_Exit" xml:space="preserve">
-    <value>Exit</value>
+    <value>Quitter</value>
   </data>
   <data name="Menu_Options" xml:space="preserve">
     <value>Options</value>
   </data>
   <data name="Menu_Options_Language" xml:space="preserve">
-    <value>Language</value>
+    <value>Langue</value>
   </data>
   <data name="Menu_Options_Language_English" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="Menu_Options_Language_French" xml:space="preserve">
-    <value>French</value>
+    <value>Français</value>
   </data>
   <data name="Menu_File_View_Logs" xml:space="preserve">
-    <value>View Logs</value>
+    <value>Afficher les journaux</value>
   </data>
   <data name="Date_Format" xml:space="preserve">
     <value>{0:d}</value>
   </data>
   <data name="Message_No_Entries" xml:space="preserve">
-    <value>No entries loaded.</value>
+    <value>Aucune entrée chargée.</value>
   </data>
   <data name="Dialog_Open_Filter_Text" xml:space="preserve">
-    <value>Select the INF</value>
+    <value>Sélectionnez l'INF</value>
   </data>
   <data name="Dialog_Open_Filters" xml:space="preserve">
-    <value>INF files | *.inf</value>
+    <value>Fichiers INF | *.inf</value>
   </data>
   <data name="Product_Credits" xml:space="preserve">
     <value>DriveStore Explorer v{0}
 by Kannan Ramanathan, Teddy Zhang, Paul Vernon</value>
   </data>
   <data name="Product_About_Title" xml:space="preserve">
-    <value>About {0}</value>
+    <value>A propos de {0}</value>
   </data>
   <data name="Export_Error" xml:space="preserve">
-    <value>Error</value>
+    <value>Erreur</value>
   </data>
   <data name="About_Project_Description" xml:space="preserve">
-    <value>You can find latest version and release notes here:
+    <value>Vous pouvez trouver la dernière version et les notes de version ici:
 
 https://github.com/lostindark/DriverStoreExplorer/releases
 
@@ -326,60 +326,60 @@ ObjectListView http://objectlistview.sourceforge.net/	</value>
     <value>English</value>
   </data>
   <data name="Dialog_Export_Filters" xml:space="preserve">
-    <value>CSV Files | *.csv</value>
+    <value>Fichiers CSV | *.csv</value>
   </data>
   <data name="Message_Operation_In_Progress" xml:space="preserve">
-    <value>Another operation in progress</value>
+    <value>Une autre opération est en cours</value>
   </data>
   <data name="Status_Adding_Package" xml:space="preserve">
-    <value>Adding driver package...</value>
+    <value>Ajout du package de pilote...</value>
   </data>
   <data name="Status_Deleting_Packages" xml:space="preserve">
-    <value>Deleting driver package(s)...</value>
+    <value>Suppression du package de(s) pilote(s)...</value>
   </data>
   <data name="Message_Detailed_Log" xml:space="preserve">
-    <value>Detailed Error Log</value>
+    <value>Journal d'erreur détaillé</value>
   </data>
   <data name="Message_Delete_Package" xml:space="preserve">
-    <value>Removed {0} ({1}) from driver store</value>
+    <value>Suppression de {0} ({1}) du magasin de pilotes</value>
   </data>
   <data name="Message_Delete_Packages" xml:space="preserve">
-    <value>Removed {0} packages from driver store</value>
+    <value>{0} packages supprimés du magasin de pilotes</value>
   </data>
   <data name="Message_Delete_Package_Error" xml:space="preserve">
-    <value>Error removing {0} ({1}) from driver store {2}</value>
+    <value>Erreur lors de la suppression de {0} ({1}) du magasin de pilotes {2}.</value>
   </data>
   <data name="Message_Delete_Packages_Error" xml:space="preserve">
-    <value>Error removing some packages from driver store {0}</value>
+    <value>Erreur lors de la suppression de certains packages du magasin de pilotes {0}</value>
   </data>
   <data name="Message_Driver_Added" xml:space="preserve">
-    <value>Added {0} the package {1} to driver store</value>
+    <value>Ajout {0} du package {1} au magasin de pilotes</value>
   </data>
   <data name="Message_Driver_Added_Error" xml:space="preserve">
-    <value>Error adding {0} the package {1} to driver store</value>
+    <value>Erreur {0} lors de l'ajout du package {1} au magasin de pilotes.</value>
   </data>
   <data name="Message_Driver_And_Installed" xml:space="preserve">
-    <value> &amp; installed</value>
+    <value> &amp; installée</value>
   </data>
   <data name="Message_Log_File_NotFound" xml:space="preserve">
-    <value>The log file cannot be found.</value>
+    <value>Le fichier journal est introuvable.</value>
   </data>
   <data name="Message_Error" xml:space="preserve">
-    <value>Error</value>
+    <value>Erreur</value>
   </data>
   <data name="Export_Complete" xml:space="preserve">
-    <value>Contents saved to {0}. Export Completed.</value>
+    <value>Contenu enregistré dans {0}. Exportation terminée.</value>
   </data>
   <data name="Export_Failed" xml:space="preserve">
-    <value>Export failed: {0}</value>
+    <value>L'exportation a échoué: {0}</value>
   </data>
   <data name="Status_Selected_Drivers" xml:space="preserve">
-    <value>Selected {0} Driver(s). Total size: {1}.</value>
+    <value>{0} pilote(s) sélectionné(s). Taille totale: {1}.</value>
   </data>
   <data name="Status_No_Drivers_Selected" xml:space="preserve">
-    <value>No drivers selected.</value>
+    <value>Aucun pilote sélectionné.</value>
   </data>
   <data name="Menu_Options_RunAs_Admin" xml:space="preserve">
-    <value>Run As Admin</value>
+    <value>Exécuter en tant qu'administrateur</value>
   </data>
 </root>
