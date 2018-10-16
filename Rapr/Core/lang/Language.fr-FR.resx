@@ -178,10 +178,10 @@
     <value>Supprimer</value>
   </data>
   <data name="Context_Deselect" xml:space="preserve">
-    <value>Deselect</value>
+    <value>Déselectionner</value>
   </data>
   <data name="Context_Deselect_All" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Tout déselectionner</value>
   </data>
   <data name="Context_Export" xml:space="preserve">
     <value>Exporter</value>
@@ -202,16 +202,16 @@
     <value>Lancé en mode non-administrateur. Certaines fonctionnalités sont désactivées.</value>
   </data>
   <data name="Message_Delete" xml:space="preserve">
-    <value>delete</value>
+    <value>Supprimer</value>
   </data>
   <data name="Message_Delete_Multiple_Packages" xml:space="preserve">
     <value>À propos de {0} {1} packages à partir du magasin de pilotes.</value>
   </data>
   <data name="Message_Delete_Result" xml:space="preserve">
-    <value>Deletion of {0} ({1}) {2}.</value>
+    <value>Suppression de {0} ({1}) {2}.</value>
   </data>
   <data name="Message_Delete_Single_Package" xml:space="preserve">
-    <value>About to {0} {1} ({2}) from driver store.</value>
+    <value>Vous allez supprimer {0} {1} ({2}) du magasin de pilotes.</value>
   </data>
   <data name="Message_Failed" xml:space="preserve">
     <value>échoué</value>
@@ -223,7 +223,7 @@
     <value>Cet utilitaire ne peut pas être exécuté avant-Vista OS</value>
   </data>
   <data name="Message_Select_Driver_Entry" xml:space="preserve">
-    <value>Select a driver entry first</value>
+    <value>Sélectionnez d'abord une entrée de pilote</value>
   </data>
   <data name="Message_Success" xml:space="preserve">
     <value>réussi</value>
@@ -256,7 +256,7 @@
     <value>Exécution en mode lecture seule</value>
   </data>
   <data name="Tip_Driver_In_Use" xml:space="preserve">
-    <value>[CONSEIL: le pilote est peut-être encore utilisé. Essayez FORCE en supprimant le paquet]</value>
+    <value>[CONSEIL: le pilote est peut-être encore utilisé. Essayez la suppression FORCÉ du package]</value>
   </data>
   <data name="Title_About" xml:space="preserve">
     <value>A propos</value>
@@ -301,7 +301,7 @@
     <value>A propos</value>
   </data>
   <data name="Menu_Help" xml:space="preserve">
-    <value>Aidez</value>
+    <value>Aide</value>
   </data>
   <data name="Product_Credits" xml:space="preserve">
     <value>DriveStore Explorer v{0}
@@ -320,7 +320,7 @@ de Kannan Ramanathan, Teddy Zhang, Paul Vernon</value>
     <value>Fichiers CSV | *.csv</value>
   </data>
   <data name="About_Project_Description" xml:space="preserve">
-    <value>You can find latest version and release notes here:
+    <value>Vous pouvez trouver la dernière version et les notes de version ici:
 
 https://github.com/lostindark/DriverStoreExplorer/releases
 
@@ -329,13 +329,13 @@ Credits:
 ObjectListView http://objectlistview.sourceforge.net/ </value>
   </data>
   <data name="Message_Operation_In_Progress" xml:space="preserve">
-    <value>Une autre opération en cours</value>
+    <value>Une autre opération est déja en cours</value>
   </data>
   <data name="Status_Adding_Package" xml:space="preserve">
     <value>Ajout du package de pilote...</value>
   </data>
   <data name="Status_Deleting_Packages" xml:space="preserve">
-    <value>Suppression de package (s) de pilote ...</value>
+    <value>Suppression de(s) package(s) de pilote(s) ...</value>
   </data>
   <data name="Message_Detailed_Log" xml:space="preserve">
     <value>Journal d'erreur détaillé</value>
@@ -353,13 +353,13 @@ ObjectListView http://objectlistview.sourceforge.net/ </value>
     <value>Erreur</value>
   </data>
   <data name="Message_Driver_Added_Error" xml:space="preserve">
-    <value>Erreur lors de l'ajout de {0} le package {1} au magasin de pilotes.</value>
+    <value>Erreur lors de l'ajout de {0} package {1} au magasin de pilotes.</value>
   </data>
   <data name="Message_Driver_And_Installed" xml:space="preserve">
     <value> &amp; installée</value>
   </data>
   <data name="Message_Driver_Added" xml:space="preserve">
-    <value>Ajouté {0} le package {1} au magasin de pilotes</value>
+    <value>Ajouté {0} package {1} au magasin de pilotes</value>
   </data>
   <data name="Message_Delete_Packages_Error" xml:space="preserve">
     <value>Erreur lors de la suppression de certains packages du magasin de pilotes {0}</value>
