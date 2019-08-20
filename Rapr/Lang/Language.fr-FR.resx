@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -48,6 +48,352 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Add_Package" xml:space="preserve">
+    <value>Ajouter un pilote</value>
+  </data>
+  <data name="Button_Delete_Package" xml:space="preserve">
+    <value>Supprimer un pilote</value>
+  </data>
+  <data name="Button_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="Button_Refresh" xml:space="preserve">
+    <value>Rafraichir</value>
+  </data>
+  <data name="Button_Select_Old" xml:space="preserve">
+    <value>Sélectionnez les anciens pilotes</value>
+  </data>
+  <data name="Check_Force_Delete" xml:space="preserve">
+    <value>Suppression forcée</value>
+  </data>
+  <data name="Check_Install_Driver" xml:space="preserve">
+    <value>Installer le pilote</value>
+  </data>
+  <data name="Column_Date" xml:space="preserve">
+    <value>Date du pilote</value>
+  </data>
+  <data name="Column_Driver_Class" xml:space="preserve">
+    <value>Classe du pilote</value>
+  </data>
+  <data name="Column_Inf" xml:space="preserve">
+    <value>INF</value>
+  </data>
+  <data name="Column_Oem_Inf" xml:space="preserve">
+    <value>OEM INF</value>
+  </data>
+  <data name="Column_Provider" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="Column_Signed_By" xml:space="preserve">
+    <value>Signé par</value>
+  </data>
+  <data name="Column_Size" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Column_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Context_Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Context_Deselect" xml:space="preserve">
+    <value>Déselectionner</value>
+  </data>
+  <data name="Context_Deselect_All" xml:space="preserve">
+    <value>Tout déselectionner</value>
+  </data>
+  <data name="Context_Select" xml:space="preserve">
+    <value>Sélectionner</value>
+  </data>
+  <data name="Context_Select_All" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="Context_Select_Old" xml:space="preserve">
+    <value>Sélectionner les anciens pilotes</value>
+  </data>
+  <data name="Group_DriverStore" xml:space="preserve">
+    <value>Magasin de pilotes</value>
+  </data>
+  <data name="Label_RunAsAdmin" xml:space="preserve">
+    <value>Démarré sans privilèges administrateur. Certaines fonctionnalités sont désactivées.</value>
+  </data>
+  <data name="Message_Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Message_Delete_Multiple_Packages" xml:space="preserve">
+    <value>Sur le point de {0} {1} pilotes du magasin de pilotes.</value>
+  </data>
+  <data name="Message_Delete_Result" xml:space="preserve">
+    <value>Suppression de {0} ({1}) {2}.</value>
+  </data>
+  <data name="Message_Delete_Single_Package" xml:space="preserve">
+    <value>Sur le point de {0} {1} ({2}) pilote du magasin de pilotes.</value>
+  </data>
+  <data name="Message_Failed" xml:space="preserve">
+    <value>échec</value>
+  </data>
+  <data name="Message_Force_Delete" xml:space="preserve">
+    <value>forcer la suppression</value>
+  </data>
+  <data name="Message_Requires_Later_OS" xml:space="preserve">
+    <value>Cet utilitaire ne peut pas être exécuté dans les systèmes d'exploitation antérieurs à Vista</value>
+  </data>
+  <data name="Message_Select_Driver_Entry" xml:space="preserve">
+    <value>Sélectionnez d'abord un pilote</value>
+  </data>
+  <data name="Message_Success" xml:space="preserve">
+    <value>réussie</value>
+  </data>
+  <data name="Message_Sure" xml:space="preserve">
+    <value>Êtes-vous sûr?</value>
+  </data>
+  <data name="Message_Title_Warning" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="Operations_Text" xml:space="preserve">
+    <value>Opérations</value>
+  </data>
+  <data name="Product_Name" xml:space="preserve">
+    <value>Driver Store Explorer</value>
+  </data>
+  <data name="Product_Name_Additional_ReadOnly" xml:space="preserve">
+    <value>[Mode lecture seule]</value>
+  </data>
+  <data name="Status_Label" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="Status_Running_ReadOnly" xml:space="preserve">
+    <value>Exécution en mode lecture seule</value>
+  </data>
+  <data name="Tip_Driver_In_Use" xml:space="preserve">
+    <value>[CONSEIL: le pilote est peut-être encore utilisé. Essayez la suppression forcée]</value>
+  </data>
+  <data name="Title_About" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="Menu_Help_About" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="Menu_File" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="Menu_File_Export" xml:space="preserve">
+    <value>Exporter la liste de pilotes</value>
+  </data>
+  <data name="Menu_File_Exit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Menu_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Menu_File_View_Logs" xml:space="preserve">
+    <value>Afficher les journaux</value>
+  </data>
+  <data name="Date_Format" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Message_No_Entries" xml:space="preserve">
+    <value>Aucune entrée chargée.</value>
+  </data>
+  <data name="Dialog_Open_Filter_Text" xml:space="preserve">
+    <value>Sélectionnez le INF</value>
+  </data>
+  <data name="Dialog_Open_Filters" xml:space="preserve">
+    <value>Fichiers INF | *.inf</value>
+  </data>
+  <data name="Product_Credits" xml:space="preserve">
+    <value>Driver Store Explorer v{0}</value>
+  </data>
+  <data name="Product_About_Title" xml:space="preserve">
+    <value>A propos de {0}</value>
+  </data>
+  <data name="Export_Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="About_Project_Description" xml:space="preserve">
+    <value>Vous pouvez trouver la dernière version et les notes de version ici:
+    https://github.com/lostindark/DriverStoreExplorer/releases
+
+Classement de bug/demande de fonctionnalité:
+    https://github.com/lostindark/DriverStoreExplorer/issues
+
+Contributeurs:
+    https://github.com/lostindark/DriverStoreExplorer/graphs/contributors
+
+Crédits:
+    ObjectListView http://objectlistview.sourceforge.net/
+    Managed DismApi Wrapper https://github.com/jeffkl/ManagedDism
+
+License:
+    https://github.com/lostindark/DriverStoreExplorer/blob/master/LICENSE
+</value>
+  </data>
+  <data name="UnitTest_Language" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Dialog_Export_Filters" xml:space="preserve">
+    <value>Fichiers CSV | *.csv</value>
+  </data>
+  <data name="Message_Operation_In_Progress" xml:space="preserve">
+    <value>Une autre opération est en cours</value>
+  </data>
+  <data name="Status_Adding_Package" xml:space="preserve">
+    <value>Ajout du package de pilote...</value>
+  </data>
+  <data name="Status_Deleting_Packages" xml:space="preserve">
+    <value>Suppression du package de pilote(s)...</value>
+  </data>
+  <data name="Message_Detailed_Log" xml:space="preserve">
+    <value>Journal d'erreur détaillé</value>
+  </data>
+  <data name="Message_Delete_Package" xml:space="preserve">
+    <value>Suppression de {0} ({1}) du magasin de pilotes</value>
+  </data>
+  <data name="Message_Delete_Packages" xml:space="preserve">
+    <value>Suppression de {0} packages du magasin de pilotes</value>
+  </data>
+  <data name="Message_Delete_Package_Error" xml:space="preserve">
+    <value>Erreur de suppression de {0} ({1}) du magasin de pilotes {2}</value>
+  </data>
+  <data name="Message_Delete_Packages_Error" xml:space="preserve">
+    <value>Erreur lors de la suppression de certains packages du magasin de pilotes {0}</value>
+  </data>
+  <data name="Message_Driver_Added" xml:space="preserve">
+    <value>{0} ajout du paquet {1} du magasin de pilotes</value>
+  </data>
+  <data name="Message_Driver_Added_Error" xml:space="preserve">
+    <value>Erreur de {0} ajout du paquet {1} du magasin de pilotes</value>
+  </data>
+  <data name="Message_Driver_And_Installed" xml:space="preserve">
+    <value> &amp; installé</value>
+  </data>
+  <data name="Message_Log_File_NotFound" xml:space="preserve">
+    <value>Le fichier journal est introuvable.</value>
+  </data>
+  <data name="Message_Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="Export_Complete" xml:space="preserve">
+    <value>Contenu enregistré dans {0}. Exportation terminé.</value>
+  </data>
+  <data name="Export_Failed" xml:space="preserve">
+    <value>Exportation échouée: {0}</value>
+  </data>
+  <data name="Status_Selected_Drivers" xml:space="preserve">
+    <value>{0} pilote(s) sélectionné(s). Taille totale: {1}.</value>
+  </data>
+  <data name="Status_No_Drivers_Selected" xml:space="preserve">
+    <value>Aucun pilote sélectionné.</value>
+  </data>
+  <data name="Menu_File_RunAs_Admin" xml:space="preserve">
+    <value>Exécuter en tant qu'administrateur</value>
+  </data>
+  <data name="Menu_Option_Always_RunAs_Admin" xml:space="preserve">
+    <value>Toujours exécuter en tant qu'administrateur</value>
+  </data>
+  <data name="Context_Open_Folder" xml:space="preserve">
+    <value>Ouvrir l'emplacement du dossier</value>
+  </data>
+  <data name="DriverStore_LocalMachine" xml:space="preserve">
+    <value>Ordinateur local</value>
+  </data>
+  <data name="Menu_File_Choose_Driver_Store" xml:space="preserve">
+    <value>Sélectionner un magasin pilote</value>
+  </data>
+  <data name="DriverStore_Offline" xml:space="preserve">
+    <value>Magasin de pilotes hors ligne</value>
+  </data>
+  <data name="ChooseDriverStore_Title" xml:space="preserve">
+    <value>Sélectionner un magasin pilote</value>
+  </data>
+  <data name="Menu_Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="Column_DeviceName" xml:space="preserve">
+    <value>Nom de l'appareil</value>
+  </data>
+  <data name="About_VersionUpToDate" xml:space="preserve">
+    <value>(À jour)</value>
+  </data>
+  <data name="About_FoundNewVersion" xml:space="preserve">
+    <value>(Nouvelle version trouvée v{0} - {1})</value>
+  </data>
+  <data name="About_Download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+</root>
     
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with 
